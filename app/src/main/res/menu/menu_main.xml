@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.proba1.MainActivity">
+    <item
+        android:id="@+id/first_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/round_login_24"
+        android:title="Zaloguj się"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/second_item"
+        android:orderInCategory="100"
+        android:icon="@drawable/round_logout_24"
+        android:title="Wyloguj"
+        app:showAsAction="always" />
+
+
+</menu>
